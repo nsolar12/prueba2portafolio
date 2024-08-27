@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container text-center my-5">
+        <h1>Natalia Solar</h1>
+        <p>Bilinguial photo copiapo, experiencia fotográfica, carnaval, 10 años, viajes. </p>
+    </header>
+
+    <section class="container my-5">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Responsabilidad</li>
+            <li>bilingue</li>
+            <li>Edición de fotografía</li>
+        </ul>
+    </section>
+
+    <section class="container my-5">
+        <h2>Proyectos previos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="naturaleza.jpg" class="card-img-top" alt="Naturaleza">
+                    <div class="card-body">
+                        <h5 class="card-title">Naturaleza</h5>
+                        <p class="card-text">Fotografía de naturaleza.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="turismo.jpg" class="card-img-top" alt="Turismo">
+                    <div class="card-body">
+                        <h5 class="card-title">Turismo</h5>
+                        <p class="card-text">Fotografía turística.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="eventos.jpg" class="card-img-top" alt="Eventos">
+                    <div class="card-body">
+                        <h5 class="card-title">Eventos</h5>
+                        <p class="card-text">Fotografía de eventos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
